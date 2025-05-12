@@ -90,7 +90,7 @@ const Navbar = () => {
             className="ml-4"
             asChild
           >
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://drive.google.com/file/d/18V3vWrUskC4EU6R_JRyFS72hAO7-jP_L/view" target="_blank" rel="noopener noreferrer">Resume</a>
           </Button>
         </div>
         
@@ -116,7 +116,7 @@ const Navbar = () => {
                 className="mt-2"
                 asChild
               >
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="https://drive.google.com/file/d/18V3vWrUskC4EU6R_JRyFS72hAO7-jP_L/view" target="_blank" rel="noopener noreferrer">Resume</a>
               </Button>
             </div>
           </div>

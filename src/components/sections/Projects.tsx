@@ -68,7 +68,7 @@ const Projects = () => {
       technologies: ["Python", "Streamlit", "Yahoo Finance API", "Gemini", "Data Visualization"],
       links: {
         demo: "https://finanancial-market-analysis.streamlit.app/",
-        github: "https://github.com/Deepanshu-kesharwani",
+        github: "https://github.com/chirag-agrawal24/stock_market_analysis",
       },
     },
   ];

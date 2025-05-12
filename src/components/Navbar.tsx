@@ -90,7 +90,7 @@ const Navbar = () => {
             className="ml-4"
             asChild
           >
-            <a href="https://drive.google.com/file/d/18V3vWrUskC4EU6R_JRyFS72hAO7-jP_L/view" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://drive.google.com/file/d/1r_LzTffn1Ji1u1JFZFW1m1T-5pcp-s0H/view" target="_blank" rel="noopener noreferrer">Resume</a>
           </Button>
         </div>
         
@@ -116,7 +116,7 @@ const Navbar = () => {
                 className="mt-2"
                 asChild
               >
-                <a href="https://drive.google.com/file/d/18V3vWrUskC4EU6R_JRyFS72hAO7-jP_L/view" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="https://drive.google.com/file/d/1r_LzTffn1Ji1u1JFZFW1m1T-5pcp-s0H/view" target="_blank" rel="noopener noreferrer">Resume</a>
               </Button>
             </div>
           </div>

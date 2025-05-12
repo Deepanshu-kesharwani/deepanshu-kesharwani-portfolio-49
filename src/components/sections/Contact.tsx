@@ -64,11 +64,20 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
-      // Send email using EmailJS
-      await emailjs.sendForm(
+      // Prepare template parameters with the expected variable names
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        to_name: "Deepanshu", // Set the recipient name for your template
+        message: formData.message,
+        reply_to: formData.email
+      };
+      
+      // Send email using EmailJS with explicit template parameters
+      await emailjs.send(
         SERVICE_ID,
         TEMPLATE_ID,
-        formRef.current!,
+        templateParams,
         PUBLIC_KEY
       );
       

@@ -31,10 +31,11 @@ const Hero = () => {
             <div className="relative w-64 h-64 lg:w-80 lg:h-80">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/80 to-primary p-1">
                 <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
-                  {/* Profile image placeholder */}
-                  <div className="w-full h-full flex items-center justify-center bg-card text-primary">
-                    <span className="text-9xl opacity-20">DK</span>
-                  </div>
+                  <img 
+                    src="https://i.postimg.cc/RVMsHGg8/Image.jpg" 
+                    alt="Deepanshu Kesharwani" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>

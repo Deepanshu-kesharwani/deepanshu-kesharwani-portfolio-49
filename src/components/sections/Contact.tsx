@@ -101,9 +101,9 @@ const Contact = () => {
               />
               <ContactInfo 
                 icon={<ExternalLink className="h-5 w-5 text-primary" />} 
-                title="LeetCode" 
+                title="GeeksforGeeks" 
                 value="Profile" 
-                link="https://leetcode.com/u/1o0BQ56BNb/" 
+                link="https://www.geeksforgeeks.org/user/dkesharwith6/?_gl=1*cv9965*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwlYHBBhD9ARIsALRu09ql6-89kdjrtNoNtmvV5VBSj-ZmAWwLJz_zVF4iJXbqK_xWrkux48UaAu-pEALw_wcB&gbraid=0AAAAAC9yBkBZ7WmoeqGfHQqOI_boNP7hg" 
               />
             </div>
           </Card>

@@ -39,27 +39,27 @@ const Certificates = () => {
   const certificates = [
     {
       title: "Data Analytics Job Simulation",
-      issuer: "Accenture",
+      issuer: "Forage",
       date: "2024",
-      url: "#",
+      url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_eCbfmY83sPf3yWrsd_1737884329194_completion_certificate.pdf",
     },
     {
       title: "Python Programming",
       issuer: "GUVI",
       date: "2023",
-      url: "#",
+      url: "https://www.guvi.in/verify-certificate?id=22015k1MNx5n2369ep",
     },
     {
       title: "AI for Beginners",
       issuer: "HP Life",
       date: "2023",
-      url: "#",
+      url: "https://www.life-global.org/certificate/d0d6547e-98b3-45fe-938f-91b2d08eaf5b",
     },
     {
       title: "What is Generative AI",
       issuer: "LinkedIn Learning",
       date: "2024",
-      url: "#",
+      url: "https://www.linkedin.com/learning/certificates/bce09d2b242cffdef10d3639ff22d5bdff5b0ca72f025f2e160372067595c1a7",
     },
   ];
 

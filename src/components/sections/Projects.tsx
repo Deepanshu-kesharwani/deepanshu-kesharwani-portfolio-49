@@ -59,7 +59,7 @@ const Projects = () => {
       technologies: ["Python", "FastAPI", "Streamlit", "Last.fm API", "YouTube API"],
       links: {
         demo: "#",
-        github: "https://github.com/Deepanshu-kesharwani",
+        github: "https://github.com/Deepanshu-kesharwani/SoundMap",
       },
     },
     {
@@ -67,7 +67,7 @@ const Projects = () => {
       description: "A financial analysis tool using Python and Streamlit with Yahoo Finance API and Gemini Chatbot for real-time market sentiment.",
       technologies: ["Python", "Streamlit", "Yahoo Finance API", "Gemini", "Data Visualization"],
       links: {
-        demo: "#",
+        demo: "https://finanancial-market-analysis.streamlit.app/",
         github: "https://github.com/Deepanshu-kesharwani",
       },
     },

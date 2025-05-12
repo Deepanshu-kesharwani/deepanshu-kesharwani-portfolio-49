@@ -10,6 +10,7 @@ import Certificates from "@/components/sections/Certificates";
 import Services from "@/components/sections/Services";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const Index = () => {
   useEffect(() => {
@@ -34,6 +35,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <Toaster />
     </div>
   );
 };

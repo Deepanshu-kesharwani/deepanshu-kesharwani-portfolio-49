@@ -58,7 +58,7 @@ const Projects = () => {
       description: "A music app built with FastAPI backend and Streamlit frontend, integrated with Last.fm for recommendations and YouTube for playback.",
       technologies: ["Python", "FastAPI", "Streamlit", "Last.fm API", "YouTube API"],
       links: {
-        demo: "https://streamlit-frontend-mgex.onrender.com/",
+        demo: "https://soundmap-1.onrender.com/",
         github: "https://github.com/Deepanshu-kesharwani/SoundMap",
       },
     },

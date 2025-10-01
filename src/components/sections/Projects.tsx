@@ -66,7 +66,6 @@ const Projects = () => {
       description: "A music app built with FastAPI backend and Streamlit frontend, integrated with Last.fm for recommendations and YouTube for playback.",
       technologies: ["Python", "FastAPI", "Streamlit", "Last.fm API", "YouTube API"],
       links: {
-        demo: "https://soundmap-1.onrender.com/",
         github: "https://github.com/Deepanshu-kesharwani/SoundMap",
       },
     },
@@ -75,7 +74,6 @@ const Projects = () => {
       description: "A financial analysis tool using Python and Streamlit with Yahoo Finance API and Gemini Chatbot for real-time market sentiment.",
       technologies: ["Python", "Streamlit", "Yahoo Finance API", "Gemini", "Data Visualization"],
       links: {
-        demo: "https://finanancial-market-analysis.streamlit.app/",
         github: "https://github.com/chirag-agrawal24/stock_market_analysis",
       },
     },

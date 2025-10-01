@@ -38,6 +38,18 @@ const Certificate = ({ title, issuer, date, url }: CertificateProps) => (
 const Certificates = () => {
   const certificates = [
     {
+      title: "Oracle Certified Foundation Associate",
+      issuer: "Oracle",
+      date: "2025",
+      url: "https://www.dropbox.com/scl/fi/tx00fgeelbcl2n06jkw7z/Oracle-AI-Foundation.pdf?rlkey=nxiom0sx9hqc7l47zbdqxmhal&st=xc4i61cy&dl=0",
+    },
+    {
+      title: "Oracle Generative AI Professional",
+      issuer: "Oracle",
+      date: "2025",
+      url: "https://www.dropbox.com/scl/fi/mqdij80tvp6dmyouozld4/Oracle-Generative-AI.pdf?rlkey=21fs5qxyuict5rg36lpuvfy6l&st=9fsd6rvl&dl=0",
+    },
+    {
       title: "Data Analytics Job Simulation",
       issuer: "Forage",
       date: "2024",

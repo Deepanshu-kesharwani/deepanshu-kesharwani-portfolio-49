@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Github, Linkedin, ExternalLink } from "lucide-react";
+import { Mail, Phone, Github, Linkedin, ExternalLink, Code } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import emailjs from '@emailjs/browser';
 
@@ -133,6 +133,12 @@ const Contact = () => {
                 title="GitHub" 
                 value="Deepanshu-kesharwani" 
                 link="https://github.com/Deepanshu-kesharwani" 
+              />
+              <ContactInfo 
+                icon={<Code className="h-5 w-5 text-primary" />} 
+                title="LeetCode" 
+                value="Profile" 
+                link="https://leetcode.com/u/1o0BQ56BNb/" 
               />
               <ContactInfo 
                 icon={<ExternalLink className="h-5 w-5 text-primary" />} 

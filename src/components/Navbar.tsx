@@ -90,7 +90,7 @@ const Navbar = () => {
             className="ml-4"
             asChild
           >
-            <a href="https://www.dropbox.com/scl/fi/cni1t9d8tpwy7n66wciio/Deepanshu-Resume.pdf?rlkey=5dpd8slorjnaeuni6sw9cw0oa&st=99wfq70j&dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://www.dropbox.com/scl/fi/7m9ntr4s6mjs4j33gmq53/Deepanshu_resume.pdf?rlkey=l8nwbsvqq10pqn83vjbgvc31z&st=ublxopot&dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
           </Button>
         </div>
         
@@ -116,7 +116,7 @@ const Navbar = () => {
                 className="mt-2"
                 asChild
               >
-                <a href="https://www.dropbox.com/scl/fi/cni1t9d8tpwy7n66wciio/Deepanshu-Resume.pdf?rlkey=5dpd8slorjnaeuni6sw9cw0oa&st=99wfq70j&dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="https://www.dropbox.com/scl/fi/7m9ntr4s6mjs4j33gmq53/Deepanshu_resume.pdf?rlkey=l8nwbsvqq10pqn83vjbgvc31z&st=ublxopot&dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
               </Button>
             </div>
           </div>

@@ -54,6 +54,14 @@ const ProjectCard = ({ title, description, technologies, links }: ProjectCardPro
 const Projects = () => {
   const projects = [
     {
+      title: "2D Animation",
+      description: "Designed an intelligent animation generation system that converts educational topics into high-quality Manim animations using AI-powered LangGraph pipelines, RAG, and web search. Implemented automated scene generation, RAG-enhanced Manim script creation, and concurrent processing for efficient pipeline execution.",
+      technologies: ["Python", "Manim", "LangGraph", "Gemini LLM", "RAG"],
+      links: {
+        github: "https://github.com/yashpinjarkar10/Cursor_2D_Animation",
+      },
+    },
+    {
       title: "SoundMap",
       description: "A music app built with FastAPI backend and Streamlit frontend, integrated with Last.fm for recommendations and YouTube for playback.",
       technologies: ["Python", "FastAPI", "Streamlit", "Last.fm API", "YouTube API"],

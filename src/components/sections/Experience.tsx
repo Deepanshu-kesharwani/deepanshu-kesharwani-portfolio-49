@@ -32,10 +32,10 @@ const Experience = () => {
       description: "Providing expert solutions to complex problems in computer science, programming, and data science domains, helping students understand difficult concepts."
     },
     {
-      role: "Machine Learning Engineer Intern",
-      company: "YBI Foundation",
-      period: "Sep 2024 – Nov 2024",
-      description: "Worked on developing and fine-tuning machine learning models, focusing on predictive analytics and pattern recognition algorithms."
+      role: "AI & Cloud Intern",
+      company: "Edunet Foundation",
+      period: "June 2025 – July 2025",
+      description: "Developed AI solutions using Microsoft Azure with focus on ML, Generative AI, and Computer Vision."
     },
     {
       role: "Data Analyst Intern",

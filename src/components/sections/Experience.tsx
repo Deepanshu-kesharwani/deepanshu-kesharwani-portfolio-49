@@ -2,6 +2,7 @@
 import React from "react";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { ExternalLink } from "lucide-react";
 
 interface ExperienceItemProps {
   role: string;
@@ -9,14 +10,27 @@ interface ExperienceItemProps {
   period: string;
   description: string;
   index: number;
+  companyLink?: string;
 }
 
-const ExperienceItem = ({ role, company, period, description, index }: ExperienceItemProps) => (
+const ExperienceItem = ({ role, company, period, description, index, companyLink }: ExperienceItemProps) => (
   <div className={cn("relative pl-8 pb-8 animate-fade-in", { "border-l-2 border-primary": index !== 2 })}>
     <div className="absolute left-[-8px] top-0 w-4 h-4 bg-primary rounded-full" />
     <Card className="p-5">
       <h3 className="text-xl font-bold">{role}</h3>
-      <h4 className="text-lg text-primary font-semibold">{company}</h4>
+      {companyLink ? (
+        <a 
+          href={companyLink} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-lg text-primary font-semibold hover:underline inline-flex items-center gap-1"
+        >
+          {company}
+          <ExternalLink className="h-4 w-4" />
+        </a>
+      ) : (
+        <h4 className="text-lg text-primary font-semibold">{company}</h4>
+      )}
       <p className="text-sm text-muted-foreground mb-3">{period}</p>
       <p>{description}</p>
     </Card>
@@ -28,20 +42,22 @@ const Experience = () => {
     {
       role: "Subject Matter Expert",
       company: "Chegg Inc.",
-      period: "Aug 2022 – Present",
-      description: "Providing expert solutions to complex problems in computer science, programming, and data science domains, helping students understand difficult concepts."
+      period: "August 2022 - Present",
+      description: "Deliver accurate academic solutions across disciplines, simplifying complex concepts to support global learners and promote academic success."
     },
     {
       role: "AI & Cloud Intern",
       company: "Edunet Foundation",
-      period: "June 2025 – July 2025",
-      description: "Developed AI solutions using Microsoft Azure with focus on ML, Generative AI, and Computer Vision."
+      period: "June 2025 - July 2025",
+      description: "Gained hands-on training on Microsoft Azure, learning to apply ML, Generative AI, and Computer Vision for building AI-driven solutions.",
+      companyLink: "https://www.dropbox.com/scl/fi/7ah14xs8rc74fid0a7hfj/Edunet-Foundation-June-to-July-2025.pdf?rlkey=qggefeotw6ynz680fgsis83or&st=5gdy93pj&dl=0"
     },
     {
       role: "Data Analyst Intern",
       company: "Edunet Foundation",
-      period: "Dec 2024 – Jan 2025",
-      description: "Analyzed large datasets, created visualization dashboards, and generated actionable insights to improve decision-making processes."
+      period: "December 2024 - January 2025",
+      description: "Extracted insights from educational data, created visual reports, and supported data-driven improvements in learning outcomes.",
+      companyLink: "https://www.dropbox.com/scl/fi/svr0z603i17e0hpc9mcyw/Edunet-Foundation-Dec-to-Jan.pdf?rlkey=p1og9pczlqdfgzseb7uyqrpnz&st=apwz719o&dl=0"
     }
   ];
 
@@ -58,6 +74,7 @@ const Experience = () => {
               period={exp.period}
               description={exp.description}
               index={index}
+              companyLink={exp.companyLink}
             />
           ))}
         </div>

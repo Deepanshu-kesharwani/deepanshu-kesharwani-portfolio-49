@@ -62,9 +62,9 @@ const Projects = () => {
       },
     },
     {
-      title: "2D Animation",
-      description: "Designed an intelligent animation generation system that converts educational topics into high-quality Manim animations using AI-powered LangGraph pipelines, RAG, and web search. Implemented automated scene generation, RAG-enhanced Manim script creation, and concurrent processing for efficient pipeline execution.",
-      technologies: ["Python", "Manim", "LangGraph", "Gemini LLM", "RAG"],
+      title: "AI-Powered Manim Animation Studio",
+      description: "Generated executable Manim animations from natural language prompts using a LangGraph-orchestrated RAG pipeline. Added automated error detection and self-correction for failed renders while optimizing Gemini LLM usage for cost and performance. Built a desktop editor enabling code editing, local rendering, timeline-based video editing, and customizable exports.",
+      technologies: ["Python", "Manim", "LangGraph", "RAG", "Gemini LLM"],
       links: {
         github: "https://github.com/yashpinjarkar10/Cursor_2D_Animation",
       },

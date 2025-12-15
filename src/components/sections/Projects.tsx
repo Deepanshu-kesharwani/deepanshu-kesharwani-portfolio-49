@@ -54,6 +54,14 @@ const ProjectCard = ({ title, description, technologies, links }: ProjectCardPro
 const Projects = () => {
   const projects = [
     {
+      title: "YouTube RAG Based Chatbot",
+      description: "Transcribed YouTube video audio using Faster Whisper and embedded processed transcripts into a FAISS vector store for semantic retrieval. Implemented a RAG pipeline using Google Gemini for context-aware response generation. Exposed RESTful APIs with FastAPI and Dockerized the system for scalable deployment.",
+      technologies: ["Python", "FastAPI", "Faster Whisper", "FAISS", "Google Gemini", "Docker"],
+      links: {
+        github: "https://github.com/Deepanshu-kesharwani/YouTube-backend",
+      },
+    },
+    {
       title: "2D Animation",
       description: "Designed an intelligent animation generation system that converts educational topics into high-quality Manim animations using AI-powered LangGraph pipelines, RAG, and web search. Implemented automated scene generation, RAG-enhanced Manim script creation, and concurrent processing for efficient pipeline execution.",
       technologies: ["Python", "Manim", "LangGraph", "Gemini LLM", "RAG"],

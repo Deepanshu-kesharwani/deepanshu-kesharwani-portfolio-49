@@ -14,7 +14,7 @@ interface ExperienceItemProps {
 }
 
 const ExperienceItem = ({ role, company, period, description, index, companyLink }: ExperienceItemProps) => (
-  <div className={cn("relative pl-8 pb-8 animate-fade-in", { "border-l-2 border-primary": index !== 2 })}>
+  <div className={cn("relative pl-8 pb-8 animate-fade-in", { "border-l-2 border-primary": index !== 3 })}>
     <div className="absolute left-[-8px] top-0 w-4 h-4 bg-primary rounded-full" />
     <Card className="p-5">
       <h3 className="text-xl font-bold">{role}</h3>
@@ -39,6 +39,12 @@ const ExperienceItem = ({ role, company, period, description, index, companyLink
 
 const Experience = () => {
   const experiences = [
+    {
+      role: "Data Quality Analyst / Consultant",
+      company: "Netscribes Data & Insights Pvt. Ltd.",
+      period: "Apr 2026 - May 2026",
+      description: "Worked on e-commerce data quality analysis and content auditing projects, ensuring accuracy and consistency of product information. Analyzed datasets, reviewed product descriptions, features, and images, and contributed to maintaining high-quality standards in team-based projects. Collaborated with cross-functional teams to complete group projects within strict deadlines while handling pressure in a fast-paced work environment. Demonstrated strong decision-making, time management, and problem-solving skills to improve workflow efficiency and task completion."
+    },
     {
       role: "Subject Matter Expert",
       company: "Chegg Inc.",

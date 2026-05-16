@@ -42,7 +42,7 @@ const Experience = () => {
     {
       role: "Consultant",
       company: "Netscribes Data & Insights Pvt. Ltd.",
-      period: "Apr 2026 - May 2026",
+      period: "Mar 2026 - May 2026",
       description: "Worked on e-commerce data quality analysis and content auditing projects, ensuring accuracy and consistency of product information. Analyzed datasets, reviewed product descriptions, features, and images, and contributed to maintaining high-quality standards in team-based projects. Collaborated with cross-functional teams to complete group projects within strict deadlines while handling pressure in a fast-paced work environment. Demonstrated strong decision-making, time management, and problem-solving skills to improve workflow efficiency and task completion."
     },
     {

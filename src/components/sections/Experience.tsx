@@ -40,7 +40,7 @@ const ExperienceItem = ({ role, company, period, description, index, companyLink
 const Experience = () => {
   const experiences = [
     {
-      role: "Data Quality Analyst / Consultant",
+      role: "Consultant",
       company: "Netscribes Data & Insights Pvt. Ltd.",
       period: "Apr 2026 - May 2026",
       description: "Worked on e-commerce data quality analysis and content auditing projects, ensuring accuracy and consistency of product information. Analyzed datasets, reviewed product descriptions, features, and images, and contributed to maintaining high-quality standards in team-based projects. Collaborated with cross-functional teams to complete group projects within strict deadlines while handling pressure in a fast-paced work environment. Demonstrated strong decision-making, time management, and problem-solving skills to improve workflow efficiency and task completion."
@@ -48,7 +48,7 @@ const Experience = () => {
     {
       role: "Subject Matter Expert",
       company: "Chegg Inc.",
-      period: "August 2022 - Present",
+      period: "August 2022 - Dec 2025",
       description: "Deliver accurate academic solutions across disciplines, simplifying complex concepts to support global learners and promote academic success."
     },
     {

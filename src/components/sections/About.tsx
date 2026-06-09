@@ -6,7 +6,7 @@ const About = () => {
   const education = [
     {
       degree: "B.Tech in Computer Science and Engineering",
-      institution: "Institute of Technology, Guru Ghasidas Viswavidyalaya, Bilaspur",
+      institution: "Institute of Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
       year: "2022–2026",
     },
     {

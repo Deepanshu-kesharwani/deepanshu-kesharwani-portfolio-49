@@ -29,13 +29,13 @@ const About = () => {
           <div className="animate-slide-in">
             <h3 className="text-2xl font-bold mb-4 font-poppins">Who I Am</h3>
             <p className="mb-4 text-lg">
-              I'm a Computer Science and Engineering student at Guru Ghasidas Viswavidyalaya, Bilaspur, passionate about leveraging technology to solve real-world problems.
+              I'm a Computer Science Engineering graduate with a passion for building intelligent systems and data-driven solutions that solve real-world problems.
             </p>
             <p className="mb-4">
-              With a strong foundation in programming, data structures, and algorithms, I specialize in AI/ML, data analytics, and full-stack development. I enjoy creating applications that provide value and enhance user experiences.
+              My expertise spans Artificial Intelligence, Machine Learning, Generative AI, Data Analytics, and Full-Stack Development. I have hands-on experience developing RAG-based applications, AI-powered document processing systems, resume analysis tools, and scalable web applications using modern technologies and frameworks.
             </p>
             <p>
-              Beyond my technical skills, I'm dedicated to continuous learning and staying updated with the latest technologies in the rapidly evolving tech landscape.
+              I enjoy transforming complex data into actionable insights and creating innovative products that deliver meaningful user experiences. Committed to continuous learning and professional growth, I actively explore emerging technologies and industry best practices to stay at the forefront of the rapidly evolving technology landscape.
             </p>
           </div>
           <div className="animate-slide-in [animation-delay:200ms]">

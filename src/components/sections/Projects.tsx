@@ -54,6 +54,24 @@ const ProjectCard = ({ title, description, technologies, links }: ProjectCardPro
 const Projects = () => {
   const projects = [
     {
+      title: "PDFQuery – Multi PDF AI Chat Assistant",
+      description: "Developed an AI-powered document question-answering system that enables users to upload and chat with multiple PDF files simultaneously. Implemented a Retrieval-Augmented Generation (RAG) pipeline using LangChain, FAISS, and Sentence Transformers for semantic search and contextual retrieval. Integrated multiple LLMs including Gemini 2.5 Flash, GPT-4o Mini, DeepSeek Chat, and Qwen models through OpenRouter. Built an interactive Streamlit interface with source attribution and persistent chat history.",
+      technologies: ["Python", "Streamlit", "LangChain", "FAISS", "Sentence Transformers", "OpenRouter", "PyPDF2", "PyMuPDF"],
+      links: {
+        demo: "https://deepanshu-kesharwani-pdfquery-app-pfdrkp.streamlit.app/",
+        github: "https://github.com/Deepanshu-kesharwani/PDFQuery",
+      },
+    },
+    {
+      title: "Smart ATS – Resume & Job Description Analyzer",
+      description: "Built an AI-powered Applicant Tracking System that evaluates resumes against job descriptions and generates ATS match scores, missing keywords, and profile summaries. Integrated OpenRouter GPT-4o Mini for intelligent resume analysis and recommendation generation. Implemented PDF resume parsing, keyword gap detection, and structured JSON-based reporting through an intuitive Streamlit web application.",
+      technologies: ["Python", "Streamlit", "OpenRouter", "GPT-4o Mini", "ATS", "Resume Analysis", "PyPDF2", "NLP", "AI"],
+      links: {
+        demo: "https://deepanshu-kesharwani-smart-ats-tracking-resume-and--main-kgqbqe.streamlit.app/",
+        github: "https://github.com/Deepanshu-kesharwani/Smart-ATS-tracking-Resume-and-JD",
+      },
+    },
+    {
       title: "YouTube RAG Based Chatbot",
       description: "Transcribed YouTube video audio using Faster Whisper and embedded processed transcripts into a FAISS vector store for semantic retrieval. Implemented a RAG pipeline using Google Gemini for context-aware response generation. Exposed RESTful APIs with FastAPI and Dockerized the system for scalable deployment.",
       technologies: ["Python", "FastAPI", "Faster Whisper", "FAISS", "Google Gemini", "Docker"],

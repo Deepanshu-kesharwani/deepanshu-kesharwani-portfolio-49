@@ -12,11 +12,10 @@ const Hero = () => {
               Hi, I'm <span className="text-primary">Deepanshu Kesharwani</span>
             </h1>
             <h2 className="text-xl md:text-2xl font-medium mb-6 text-muted-foreground">
-              AI/ML Developer | Data Analyst | Full Stack Enthusiast
+              AI/ML Engineer | Data Analyst | Generative AI Developer
             </h2>
             <p className="text-lg mb-8 max-w-lg">
-              B.Tech student passionate about AI/ML, full-stack development, and data analytics. 
-              Creating solutions that make a difference through technology.
+              Computer Science Engineering student with hands-on experience in Machine Learning, Generative AI, Data Analytics, and Software Development. Passionate about building scalable AI solutions, RAG applications, intelligent document processing systems, and data-driven products that transform complex information into actionable insights.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button className="btn-primary" asChild>

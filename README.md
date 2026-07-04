@@ -6,7 +6,7 @@
 
 This is a modern, responsive personal portfolio website created using **Lovable AI** - an intelligent web development platform. The portfolio showcases professional work, technical skills, experience, and key achievements with a clean, professional design.
 
-**Live Portfolio**: [View on Lovable](https://lovable.dev)
+**Live Portfolio**: [View on Lovable](https://deepanshu-kesharwani-portfolio-49.lovable.app)
 
 ## ✨ What's Included
 

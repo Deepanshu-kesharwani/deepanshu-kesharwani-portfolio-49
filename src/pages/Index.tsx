@@ -35,7 +35,6 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
-      <Toaster />
     </div>
   );
 };
